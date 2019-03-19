@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <EditText
+        android:id="@+id/dodaj_komentar_komentar"
+        android:hint="@string/unesite_komentar_utisak_koji_zelite"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/dodaj_komentar_button_confirm"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potvrdi"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dodaj_komentar_button_cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odustani"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
